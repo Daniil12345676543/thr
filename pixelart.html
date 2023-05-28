@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ai.css">
+
+    <!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+
+    <title>Генератор пикселей</title>
+    <!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="options">
+            <div class="opt-wrapper">
+                <div class="slider">
+                    <label for="width-range">Ширина</label>
+                    <input type="range" id="width-range" min="1" max="35">
+                    <span id="width-value">00</span>
+                </div>
+                <div class="slider">
+                    <label for="height-range">Длина</label>
+                    <input type="range" id="height-range" min="1" max="35">
+                    <span id="height-value">00</span>
+                </div>
+            </div>
+
+            <div class="opt-wrapper">
+                <button id="submit-grid">Начать</button>
+                <button id="clear-grid">Убрать</button>
+                <input type="color" id="color-input">
+                <button id="erase-btn">Стереть</button>
+                <button id="paint-btn">Рисовать</button>
+            </div>
+
+        </div>
+        <div class="container"></div>
+    </div>
+</body>
+
+</html>

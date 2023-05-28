@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="snake.css">
+
+    <!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+
+    <title>Змейка</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="game-details">
+            <span class="score">Робуксов к выводу: 0</span>
+            <span class="high-score">Вывел(а) всего: 0</span>
+            <button id="add-balance-button">Добавить очки на баланс</button>
+        </div>
+        
+
+        <div class="play-board"></div>
+
+        <div class="controls">
+            <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+            <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+            <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+            <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+        </div>
+
+    </div>
+
+    <script src="snake.js"></script>
+</body>
+
+</html>

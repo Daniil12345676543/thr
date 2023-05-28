@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Регистрация</title>
+  <link rel="stylesheet" type="text/css" href="register.css">
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+<body>
+  <div class="container">
+    <h2>Регистрация</h2>
+    <form action="register.php" method="post">
+      <label for="username">Имя пользователя:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Пароль:</label>
+      <input type="password" id="password" name="password" required>
+
+      <input type="submit" value="Зарегистрироваться">
+    </form>
+  </div>
+
+  <div class="parallax"></div>
+</body>
+</html>
